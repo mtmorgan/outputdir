@@ -1,0 +1,14 @@
+Package: outputdir
+Type: Package
+Title: Experimental data and documented source code...
+Version: 1.10.0
+Authors@R: person(
+    "Martin", "Morgan", email="Martin.Morgan@RoswellPark.org",
+    role = "cre")
+Description: The package contains the experimental data and documented...
+License: Artistic-2.0
+LazyLoad: true
+Suggests: knitr
+Depends: R (>= 3.0)
+VignetteBuilder: knitr
+NeedsCompilation: no

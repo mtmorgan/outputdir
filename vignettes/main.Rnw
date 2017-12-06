@@ -1,0 +1,21 @@
+%\VignetteIndexEntry{DmelSGI}
+%\VignettePackage{DmelSGI}
+%\VignetteEngine{knitr::knitr}
+\documentclass[]{article}
+
+<<opts,include=FALSE>>=
+library(knitr)
+opts_chunk$set(dev=c('pdf','png'))
+@
+
+\begin{document}
+
+<<fpath>>=
+fpath <- function(d) file.path(opts_knit$get("output.dir"), d)
+@ 
+
+<<test, fig.path=fpath("X"), child=file.path('src', 'fig.Rnw'), eval=TRUE>>=
+@
+
+\end{document}
+
